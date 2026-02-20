@@ -17,6 +17,7 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8081", nil))
 }
 
+///
 /*
 POST /api/register - регистрация
 POST /api/login - логин
